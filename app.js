@@ -136,13 +136,31 @@ document.querySelectorAll('.copy-button').forEach((button) => {
 });
 
 const resources = [
-  { name: '能力地圖', href: '能力地圖.png', status: '開啟圖片' },
-  { name: '32 Starter 總表' },
-  { name: '學習單' },
-  { name: '教師版' },
-  { name: '教學簡報' },
-  { name: 'Kahoot' },
-  { name: 'AI 使用倫理' }
+  {
+    name: '能力地圖',
+    href: 'ability-map.png',
+    status: '開啟圖片'
+  },
+  {
+    name: '32 Starter 總表',
+    href: '32-starters.pdf',
+    status: '開啟總表'
+  },
+  {
+    name: '學習單'
+  },
+  {
+    name: '教師版'
+  },
+  {
+    name: '教學簡報'
+  },
+  {
+    name: 'Kahoot'
+  },
+  {
+    name: 'AI 使用倫理'
+  }
 ];
 
 document.querySelector('#resource-grid').innerHTML = resources.map((item, index) => {
@@ -152,7 +170,23 @@ document.querySelector('#resource-grid').innerHTML = resources.map((item, index)
     <small>${item.status || 'COMING SOON'}</small>
   `;
 
-  return item.href
-    ? `<a class="resource-card" href="${item.href}" target="_blank" rel="noopener">${content}</a>`
-    : `<div class="resource-card">${content}</div>`;
+  if (item.href) {
+    return `
+      <a
+        class="resource-card"
+        href="${item.href}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ${content}
+      </a>
+    `;
+  }
+
+  return `
+    <div class="resource-card">
+      ${content}
+    </div>
+  `;
 }).join('');
+ 
