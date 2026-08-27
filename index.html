@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="高中小論文 AI Research Coach System：從研究卡點出發，找到適合的 AI 教練與提問起點。" />
+    <meta name="theme-color" content="#f4f0e8" />
+    <title>高中小論文 AI Research Coach System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到首頁">ARC<span>System</span></a>
+      <nav aria-label="主要導覽">
+        <a href="#coaches">AI 教練</a>
+        <a href="#steps">使用步驟</a>
+        <a href="#teachers">教師專區</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> AI × RESEARCH LITERACY</p>
+          <h1>高中小論文<br /><em>AI Research Coach</em><br />System</h1>
+          <p class="lead">不知道現在該用哪一支 AI 教練？找到你卡住的問題，就從這裡開始。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#coaches">找到我的教練 <span>↓</span></a>
+            <a class="text-link" href="#steps">先看怎麼使用 <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-manifesto" aria-label="核心理念與研究流程">
+          <p>Don't Teach Papers.</p>
+          <strong>Teach Research<br />Thinking.</strong>
+          <div class="process-line" aria-label="診斷、提問、追問、比較、檢核、反思">
+            <span>診斷</span><i>→</i><span>提問</span><i>→</i><span>追問</span><i>→</i><span>比較</span><i>→</i><span>檢核</span><i>→</i><span>反思</span>
+          </div>
+          <small>AI 不替你寫論文，而是陪你把研究想清楚。</small>
+        </div>
+      </section>
+
+      <section class="coaches-section" id="coaches">
+        <div class="section-shell">
+          <div class="section-heading">
+            <div><p class="eyebrow"><span></span> 8 RESEARCH COACHES</p><h2>你現在，卡在哪裡？</h2></div>
+            <p>選擇最接近的狀況，展開 4 個提問起點。先複製指令，再進入 ChatGPT 教練貼上。</p>
+          </div>
+          <div class="coach-grid" id="coach-grid"></div>
+        </div>
+      </section>
+
+      <section class="steps section-shell" id="steps">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> HOW IT WORKS</p><h2>學生使用步驟</h2></div>
+          <p>不用學複雜指令。從真實卡點開始，讓每一次對話都有研究目的。</p>
+        </div>
+        <ol class="step-grid">
+          <li><b>01</b><h3>找到卡點</h3><p>選擇最符合目前研究狀況的 AI 教練。</p></li>
+          <li><b>02</b><h3>複製提問</h3><p>展開教練，選一個 Starter 並一鍵複製。</p></li>
+          <li><b>03</b><h3>進入對話</h3><p>開啟 ChatGPT 教練，貼上指令與必要資料。</p></li>
+          <li><b>04</b><h3>保留判斷</h3><p>追問、比較與檢核；最後由你決定與負責。</p></li>
+        </ol>
+        <aside class="ethics-note"><span>使用提醒</span><p>請勿上傳姓名、學號等個人資料。AI 的回答可能有錯，資料、引註與觀點都要回到原始來源查證。</p></aside>
+      </section>
+
+      <section class="teacher-section" id="teachers">
+        <div class="section-shell">
+          <div class="section-heading light">
+            <div><p class="eyebrow"><span></span> FOR EDUCATORS</p><h2>教師專區</h2></div>
+            <p>教學資源陸續整理中。第一版先保留清楚入口，方便未來直接加入下載連結。</p>
+          </div>
+          <div class="resource-grid" id="resource-grid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer><div class="section-shell"><a class="brand footer-brand" href="#top">ARC<span>System</span></a><p>思考是學生的，AI 是教練。</p><small>高中小論文 AI Research Coach System</small></div></footer>
+    <div class="toast" id="toast" role="status" aria-live="polite">✓ 指令已複製</div>
+    <script src="app.js"></script>
+  </body>
+</html>
