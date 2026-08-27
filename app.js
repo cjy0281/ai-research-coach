@@ -143,7 +143,7 @@ const resources = [
   },
   {
     name: '32 Starter 總表',
-    href: '32-starters.pdf',
+    href: '32starters.pdf',
     status: '開啟總表'
   },
   {
