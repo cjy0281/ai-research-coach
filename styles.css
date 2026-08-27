@@ -106,3 +106,12 @@ footer small {  justify-self: end;  text-align: right;}
   .resource-card { padding:18px; min-height:130px; }
   footer .section-shell {  grid-template-columns: 1fr;  justify-items: center;  text-align: center;  gap: 16px;}
 .footer-brand,footer p,footer small {  justify-self: center;  text-align: center;}
+  @media (max-width: 620px) {  html,  body {    width: 100%;    max-width: 100%;    overflow-x: hidden;  }
+  footer {    padding: 40px 0;  }
+  footer .section-shell {    display: flex !important;    flex-direction: column !important;    align-items: center !important;    justify-content: center !important;
+    gap: 14px;    width: calc(100% - 28px);    text-align: center;  }
+  footer .footer-brand,  footer p,
+  footer small {    width: 100%;    margin: 0;    justify-self: auto;    text-align: center;    white-space: normal;  }
+  footer p {    line-height: 1.7;  }
+  footer small {    display: block;    line-height: 1.7;  }
+}
