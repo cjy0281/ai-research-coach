@@ -138,11 +138,11 @@ document.querySelectorAll('.copy-button').forEach((button) => {
 const resources = [
   {
     name: '能力地圖',
-    href: 'ability-map.png',
+    href: '能力地圖.png',
     status: '開啟圖片'
   },
   {
-    name: '32 Starter 總表',
+    name: '32 Starters 總表',
     href: '32starters.pdf',
     status: '開啟總表'
   },
