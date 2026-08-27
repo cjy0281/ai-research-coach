@@ -115,4 +115,10 @@ footer small {  justify-self: end;  text-align: right;}
   footer p {    line-height: 1.7;  }
   footer small {    display: block;    line-height: 1.7;  }
 }
-footer p,footer small {  font-size: 16px;}
+footer .section-shell > p,
+footer .section-shell > small {
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: "Noto Sans TC", sans-serif !important;
+  line-height: 1.7;
+}
