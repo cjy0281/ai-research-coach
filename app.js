@@ -73,7 +73,14 @@ const coaches = [
   }
 ];
 
-const GPT_LINKS = Object.fromEntries(coaches.map(({ id }) => [id, `https://chatgpt.com/g/g-REPLACE-ME-${id}`]));
+const GPT_LINKS = Object.fromEntries(coaches.map(({ id }) => [id, `'01': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d95dca6508191a9738101f2c4daa2-yan-jiu-fang-xiang-yu-ti-mu-ding-ding-jiao-lian',
+  '02': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d98a7c80c8191a82b8d0968602a7f-qian-yan-si-kao-jiao-lian-xiu-zheng-ban',
+  '03': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d846b3f748191a4c89c33a50eb8ce-wen-xian-yue-du-yu-zheng-he-jiao-lian',
+  '04': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d8c0b6db4819181efc8c511cb1637-yan-jiu-fang-fa-jiao-lian',
+  '05': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a76aacbd37081918367991725d29d9f-zi-liao-fen-xi-jiao-lian-jia-wen-xian-bi-jiao',
+  '06': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d91084edc8191ba8bac9c1c2d03fa-jie-lun-fan-si-jiao-lian',
+  '07': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d92e0905081918608ecfebce7b7c4-yin-zhu-yu-xue-shu-lun-li',
+  '08': 'https://chatgpt.com/g/https://chatgpt.com/g/g-6a6d9c9e5d748191ac5cbbad472c62b6-apa-yin-zhu-ge-shi-jiao-lian-gao-zhong-xiao-lun-wen-ban'-${id}`]));
 const coachGrid = document.querySelector('#coach-grid');
 
 coachGrid.innerHTML = coaches.map((coach) => `
