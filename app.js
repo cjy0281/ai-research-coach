@@ -135,7 +135,24 @@ document.querySelectorAll('.copy-button').forEach((button) => {
   });
 });
 
-const resources = ['能力地圖', '32 Starter 總表', '學習單', '教師版', '教學簡報', 'Kahoot', 'AI 使用倫理'];
-document.querySelector('#resource-grid').innerHTML = resources.map((name, index) => `
-  <div class="resource-card"><span>${String(index + 1).padStart(2, '0')}</span><strong>${name}</strong><small>COMING SOON</small></div>
-`).join('');
+const resources = [
+  { name: '能力地圖', href: '能力地圖.png', status: '開啟圖片' },
+  { name: '32 Starter 總表' },
+  { name: '學習單' },
+  { name: '教師版' },
+  { name: '教學簡報' },
+  { name: 'Kahoot' },
+  { name: 'AI 使用倫理' }
+];
+
+document.querySelector('#resource-grid').innerHTML = resources.map((item, index) => {
+  const content = `
+    <span>${String(index + 1).padStart(2, '0')}</span>
+    <strong>${item.name}</strong>
+    <small>${item.status || 'COMING SOON'}</small>
+  `;
+
+  return item.href
+    ? `<a class="resource-card" href="${item.href}" target="_blank" rel="noopener">${content}</a>`
+    : `<div class="resource-card">${content}</div>`;
+}).join('');
