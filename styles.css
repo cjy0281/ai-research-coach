@@ -110,15 +110,26 @@ footer small {  justify-self: end;  text-align: right;}
   footer {    padding: 40px 0;  }
   footer .section-shell {    display: flex !important;    flex-direction: column !important;    align-items: center !important;    justify-content: center !important;
     gap: 14px;    width: calc(100% - 28px);    text-align: center;  }
-  footer .footer-brand,  footer p,
-  footer small {    width: 100%;    margin: 0;    justify-self: auto;    text-align: center;    white-space: normal;  }
-  footer p {    line-height: 1.7;  }
-  footer small {    display: block;    line-height: 1.7;  }
+  footer .footer-brand,
+footer p,
+footer .footer-credit {
+  width: 100%;
+  margin: 0;
+  justify-self: auto;
+  text-align: center;
+  white-space: normal;
 }
-footer .section-shell > p,
-footer .section-shell > small {
+  footer p {    line-height: 1.7;  }
+ }
+footer .section-shell > p {
+  margin: 0;
+  font-family: "Noto Sans TC", sans-serif;
   font-size: 16px !important;
   font-weight: 400 !important;
-  font-family: "Noto Sans TC", sans-serif !important;
   line-height: 1.7;
+}
+
+footer .footer-credit {
+  justify-self: end;
+  text-align: right;
 }
