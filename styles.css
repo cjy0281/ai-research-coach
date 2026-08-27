@@ -115,5 +115,4 @@ footer small {  justify-self: end;  text-align: right;}
   footer p {    line-height: 1.7;  }
   footer small {    display: block;    line-height: 1.7;  }
 }
-footer p,
-footer small {  font-size: 16px;}
+footer p,footer small {  font-size: 16px;}
