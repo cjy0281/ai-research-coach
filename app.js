@@ -141,30 +141,15 @@ const resources = [
     href: '能力地圖.png',
     status: '開啟圖片'
   },
-  {
-    name: '32 Starters 總表',
-    href: '32Starters.pdf',
-    status: '開啟總表'
-  },
-  {
-    name: '學習單'
-  },
+  { name: '32 Starters 總表', href: '32Starters.pdf', status: '開啟總表'},
+  { name: '學習單'  },
   
-  {
-    name: 'AI 使用倫理'
-  }
+  { name: 'AI 使用倫理' },
 
-{
-    name: '國立公共資訊圖書館',
-    href: 'https://www.nlpi.edu.tw/',
-    status: '開啟網站'
-  },
+{ name: '國立公共資訊圖書館', href: 'https://www.nlpi.edu.tw/', status: '開啟網站'  },
 
-{
-    name: '臺灣博碩士論文知識加值系統',
-    href: 'https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge',
-    status: '開啟網站'
-  },
+{ name: '臺灣博碩士論文知識加值系統', href: 'https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge',
+    status: '開啟網站'  },
 ];
 document.querySelector('#resource-grid').innerHTML = resources.map((item, index) => {
   const content = `
