@@ -155,6 +155,18 @@ const resources = [
   }
 ];
 
+{
+    name: '國立公共資訊圖書館',
+    href: 'https://www.nlpi.edu.tw/',
+    status: '開啟網站'
+  },
+
+{
+    name: '臺灣博碩士論文知識加值系統',
+    href: 'https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge',
+    status: '開啟網站'
+  },
+
 document.querySelector('#resource-grid').innerHTML = resources.map((item, index) => {
   const content = `
     <span>${String(index + 1).padStart(2, '0')}</span>
