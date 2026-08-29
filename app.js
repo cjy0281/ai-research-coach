@@ -153,7 +153,6 @@ const resources = [
   {
     name: 'AI 使用倫理'
   }
-];
 
 {
     name: '國立公共資訊圖書館',
@@ -166,7 +165,7 @@ const resources = [
     href: 'https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge',
     status: '開啟網站'
   },
-
+];
 document.querySelector('#resource-grid').innerHTML = resources.map((item, index) => {
   const content = `
     <span>${String(index + 1).padStart(2, '0')}</span>
