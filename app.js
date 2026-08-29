@@ -151,7 +151,7 @@ const resources = [
 { name: '臺灣博碩士論文知識加值系統', href: 'https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dwebmge',
     status: '開啟網站'  },
 
-{ name: '115-1選課及上課地點', href: '115-1高一校訂必修跑班選課結果.pdf/', status: '開啟檔案'  },
+{ name: '115-1選課及上課地點', href: '115-1高一校訂必修跑班選課結果.pdf', status: '開啟檔案'  },
 
 { name: '115-1上課進度參考', href: '115學年度高一校必課程進度及教學參考資源(簡版).pdf',
     status: '開啟檔案'  },
