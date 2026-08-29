@@ -1,4 +1,4 @@
-# 高中小論文 AI Research Coach System
+# 興大附中專題究 AI Research Coach System
 
 一個可直接部署到 GitHub Pages 的繁體中文公開入口網站。網站本身不呼叫 OpenAI API、不含任何 API Key，也不蒐集使用者資料；學生會從網站開啟對應的 ChatGPT GPT，使用自己的 ChatGPT 帳號與額度。
 
