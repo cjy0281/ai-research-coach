@@ -149,15 +149,7 @@ const resources = [
   {
     name: '學習單'
   },
-  {
-    name: '教師版'
-  },
-  {
-    name: '教學簡報'
-  },
-  {
-    name: 'Kahoot'
-  },
+  
   {
     name: 'AI 使用倫理'
   }
