@@ -144,7 +144,7 @@ const resources = [
   { name: '32 Starters 總表', href: '32Starters.pdf', status: '開啟總表'},
   { name: '學習單'  },
   
-  { name: 'AI 使用倫理' },
+  { name: '臺灣學術倫理教育資源中心' , href: 'https://ethics.moe.edu.tw/', status: '開啟網站'  },
 
 { name: '國立公共資訊圖書館', href: 'https://www.nlpi.edu.tw/', status: '開啟網站'  },
 
