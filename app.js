@@ -136,13 +136,14 @@ document.querySelectorAll('.copy-button').forEach((button) => {
 });
 
 const resources = [
-  {
-    name: '能力地圖',
-    href: '能力地圖.png',
-    status: '開啟圖片'
-  },
+  
   { name: '32 Starters 總表', href: '32Starters.pdf', status: '開啟總表'},
   { name: '教材講義', href: 'Teaching materials.pdf', status: '開啟檔案' },
+{
+    name: '學習單',
+    href: 'AI-coach-worksheet.pdf',
+    status: '開啟檔案'
+  },
   
   { name: '臺灣學術倫理教育資源中心' , href: 'https://ethics.moe.edu.tw/', status: '開啟網站'  },
 
