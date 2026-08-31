@@ -154,7 +154,7 @@ const resources = [
 
 { name: '115-1選課及上課地點', href: 'course-selection-115-1.pdf', status: '開啟檔案'  },
 
-{ name: '115-1上課進度參考', href: '115學年度高一校必課程進度及教學參考資源(簡版).pdf',
+{ name: '115-1上課進度參考', href: '115學年度高一校必課程進度及教學參考資源(簡版)(1).pdf',
     status: '開啟檔案'  },
 
 ];
