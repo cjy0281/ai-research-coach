@@ -140,7 +140,7 @@ const resources = [
   { name: '32 Starters 總表', href: '32Starters.pdf', status: '開啟總表'},
   { name: '教材講義', href: 'Teaching materials.pdf', status: '開啟檔案' },
 {
-    name: '學習單',
+    name: '學習歷程紀錄單',
     href: 'AI-coach-worksheet.pdf',
     status: '開啟檔案'
   },
