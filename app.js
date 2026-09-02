@@ -139,7 +139,7 @@ const resources = [
 { name: '115-1選課及上課地點', href: 'course-selection-115-1.pdf', status: '開啟檔案'  },
 { name: '115-1上課進度參考', href: '115學年度高一校必課程進度及教學參考資源(簡版)(1).pdf', status: '開啟檔案'  },
 { name: '教材講義', href: 'Teaching materials.pdf', status: '開啟檔案' },
-{ name: '32 Starters 總表', href: '32Starters.pdf', status: '開啟總表'},
+{ name: '32 Starters 總表', href: '32Starters-1.pdf', status: '開啟總表'},
 { name: '學習歷程紀錄單',  href: 'AI-coach-worksheet.pdf',  status: '開啟檔案'  },
 { name: '臺灣學術倫理教育資源中心' , href: 'https://ethics.moe.edu.tw/', status: '開啟網站'  },
 { name: '國立公共資訊圖書館', href: 'https://www.nlpi.edu.tw/', status: '開啟網站'  },
